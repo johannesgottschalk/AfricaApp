@@ -2,17 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Menu from './components/Menu';
-import Main from './components/Main';
-import Footer from './components/Footer'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Menu />
-    <Main />
-    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

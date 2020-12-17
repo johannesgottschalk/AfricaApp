@@ -1,9 +1,8 @@
-import './css/Footer.css';
 
 function Footer() {
   return (
-    <div class="container">
-      <div id="about" class="column-2 box">
+    <div class="main">
+      <div id="about" class="column-1 box">
         <h1>About Appfrica</h1>
         <br/>
         <p>Appfrica is an e-learning platform for training
@@ -14,7 +13,7 @@ function Footer() {
         <br/>
         <p>Have fun</p> 
       </div>
-      <div id="follow" class="column-2 box">
+      <div id="follow" class="column-1 box">
         <h1>Follow Appfrica</h1>
       </div>
     </div>                   
